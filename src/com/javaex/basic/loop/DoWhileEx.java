@@ -1,4 +1,4 @@
-package com.javeex.basic.loop;
+package com.javaex.basic.loop;
 
 import java.util.Scanner;
 

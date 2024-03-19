@@ -1,4 +1,4 @@
-package com.javeex.basic.loop;
+package com.javaex.basic.loop;
 
 public class ContinueEx {
 	// 1~20가지 루프

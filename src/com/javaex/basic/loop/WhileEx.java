@@ -1,4 +1,4 @@
-package com.javeex.basic.loop;
+package com.javaex.basic.loop;
 
 public class WhileEx {
 	// I Like Java0 ~ I Like 20
