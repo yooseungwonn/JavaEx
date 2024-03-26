@@ -1,9 +1,12 @@
 package com.java.practice4;
-
+import java.util.Arrays;
 public class Ex06 {
 
 	public static void main(String[] args) {
-		System.out.println("평균은 입니다");
+		String str = "This is a pencil";
+		String[] strArr = str.split("\\s");
+		System.out.println(Arrays.toString(strArr));
+		
 
 	}
 
