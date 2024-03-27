@@ -1,20 +1,31 @@
-package com.javaex.oop.point.v3;
+package com.javaex.oop.point.v4;
 
-// v3. 메서드 오버로딩
+// v4. 상속 연습
 // 매서드 시그니처 : 반환 타입, 이름은 같고
 // 매개 변수의 타입, 순서, 개수만 다른 매서드
 public class Point {
+	
+	protected int x; 
+	protected int y;
+	
+	public int getX() {
+		return x;
+	}
+	public int getY() {
+		return y;
+	}
 	// 필드 (은닉)
-	private int x; 
-	private int y;
-	// getters/setters
+	
+	
 	public Point() {
 		x=0;
 		y=0;
 	}
 	public Point(int x, int y) {
 		this.x= x;
-		this.y = y;}
+		this.y =y;
+	}
+	
 	
 	// 일반 메서드
 	public void draw() {

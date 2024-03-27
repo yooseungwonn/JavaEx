@@ -1,4 +1,4 @@
-package com.javeex.basic.operators;
+package com.javaex.basic.operators;
 
 public class ArithOperEx {
 
